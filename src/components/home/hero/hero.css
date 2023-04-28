@@ -1,0 +1,37 @@
+.hero {
+    background-image: url("../../../images/about.webp");
+    opacity: .6;
+    background-blend-mode: color-burn; 
+    background-color: rgb(150, 202, 202);
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:-1;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: white;
+}
+.hero #heading h3 {
+   color: white;
+}
+.hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+@media screen and (max-width:768px) {
+    .hero {
+         background-position:right;
+         padding-top: 50%;
+         height: 80vh;
+    }
+    .hero .row {
+        width: 100%;
+    }
+    
+}
