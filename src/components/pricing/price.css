@@ -40,3 +40,10 @@ margin-bottom: 20px;
 .faq p {
     padding: 20px;
  }
+ .faq .accordion {
+transition: 0.5s; 
+}
+ .faq .accordion:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+ }
